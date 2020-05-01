@@ -17,7 +17,9 @@ int main()
     {
         cout<<*itr<<endl;
     }
+    cout<<endl<<p<<endl<<*n.lower_bound(6)<<endl<<*n.upper_bound(6);
+    n.erase(8);
     p=n.size();
-    cout<<endl<<p<<endl<<*n.lower_bound(8)<<endl<<*n.upper_bound(8);
+    cout<<endl<<p<<endl<<*n.lower_bound(6)<<endl<<*n.upper_bound(6);
     return 0;
 }
