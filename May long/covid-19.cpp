@@ -29,7 +29,7 @@ int main() {
                 max++;
             }
         }
-        cout<<max<<"   "<<min<<endl;
+        cout<<max<<"  "<<min<<endl;
 	}
 	return 0;
 }
